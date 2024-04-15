@@ -16,7 +16,7 @@ public class DbConnectSample01 {
         
         
         try {
-            // 1.   ドライバーのクラスをJava上で
+            // 1.   ドライバーのクラスをJava上で読み込む
             Class.forName("com.mysql.cj.jdbc.Driver");
             
             
