@@ -22,7 +22,7 @@ public class DatabaseManeger {
         
         return con;
     }
-}
+
 
     public static void close() {
         // 7.   接続を閉じる

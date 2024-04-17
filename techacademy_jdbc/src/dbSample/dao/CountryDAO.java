@@ -21,7 +21,7 @@ public class CountryDAO {
         
         try {
             //1,2.  ドライバを読み込み、DBに接続
-            Connection connection = DatabaseManeger.gettConnection();
+            Connection con = DatabaseManeger.gettConnection();
             
             
             //3.    DBとやりとりする窓口(Statementオブジェクト)の作成

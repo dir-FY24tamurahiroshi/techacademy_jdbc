@@ -40,7 +40,7 @@ public class DbConnectSample03 {
             String input = keyIn();
             
             
-            String sql = "select * from country where Name = '" + input + "'"; 
+            String sql = "select * from country where Name = '" + input + ""; 
             rs = stmt.executeQuery(sql);
             
             // 6.   結果を表示
